@@ -6,7 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
@@ -18,7 +18,7 @@ body {
 	align-items: center;
 }
 
-.top-header .name {
+header .name {
 	font-size: 26px;
 }
 
@@ -93,6 +93,7 @@ body {
 #gallery {
 		min-height: 100vh;
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -242,6 +243,59 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.informations {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 148px;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.adresse {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-adresse {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header-adresse img{
+	height: 50px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-contact {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.header-contact img{
+	height: 30px;
+}
+
+.separatif {
+	font-size: 60px;
+	color: grey;
 }
 
 @media all and (max-width: 1180px) {
