@@ -103,7 +103,8 @@ header .name {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: black;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -291,11 +292,6 @@ footer {
 
 .header-contact img{
 	height: 30px;
-}
-
-.separatif {
-	font-size: 60px;
-	color: grey;
 }
 
 @media all and (max-width: 1180px) {
