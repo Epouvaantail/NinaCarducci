@@ -273,11 +273,10 @@ footer {
 .header-adresse {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 }
 
 .header-adresse img{
-	height: 50px;
+	height: 30px;
 }
 
 .contact {
@@ -294,7 +293,7 @@ footer {
 }
 
 .header-contact img{
-	height: 30px;
+	height: 20px;
 }
 
 @media all and (max-width: 1180px) {
